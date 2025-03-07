@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-02T11:49:26 IST" name="Default suite" finished-at="2025-03-02T11:49:49 IST" duration-ms="23193">
+    <groups>
+    </groups>
+    <test started-at="2025-03-02T11:49:26 IST" name="Default test" finished-at="2025-03-02T11:49:49 IST" duration-ms="23193">
+      <class name="com.practiseSoftwareTesting.testcases.SignInPage_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.practiseSoftwareTesting.testcases.SignInPage_Test@1573f9fc]" started-at="2025-03-02T11:49:26 IST" name="beforeClass" finished-at="2025-03-02T11:49:31 IST" duration-ms="4909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="getTitle()[pri:0, instance:com.practiseSoftwareTesting.testcases.SignInPage_Test@1573f9fc]" started-at="2025-03-02T11:49:31 IST" name="getTitle" finished-at="2025-03-02T11:49:32 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.practiseSoftwareTesting.testcases.SignInPage_Test@1573f9fc]" started-at="2025-03-02T11:49:32 IST" name="loginTest" data-provider="ExcelData" finished-at="2025-03-02T11:49:38 IST" duration-ms="5664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhushan87@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.practiseSoftwareTesting.testcases.SignInPage_Test@1573f9fc]" started-at="2025-03-02T11:49:38 IST" name="loginTest" data-provider="ExcelData" finished-at="2025-03-02T11:49:44 IST" duration-ms="5740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kdhd34@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dmmm#44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.practiseSoftwareTesting.testcases.SignInPage_Test@1573f9fc]" started-at="2025-03-02T11:49:44 IST" name="loginTest" data-provider="ExcelData" finished-at="2025-03-02T11:49:49 IST" duration-ms="5804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mdmdk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mek44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.practiseSoftwareTesting.testcases.SignInPage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
