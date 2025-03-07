@@ -16,6 +16,7 @@ By email=By.id("email");
 By password=By.id("password");
 By login=By.className("btnSubmit");
 By errorMsg=By.xpath("//div[text()='Invalid email or password']");
+By registerBtn=By.xpath("//a[text()='Register your account']");
 public String getTitle() {
 	String txt=driver.findElement(title).getText();
 	return txt;
@@ -34,6 +35,8 @@ public String doLogin(String mail,String pass) throws InterruptedException {
 	return txt;
 }
 
-
+public boolean checkRegisterBtnAvailable() {
+	return driver.findElement(registerBtn).isDisplayed();
+}
 
 }

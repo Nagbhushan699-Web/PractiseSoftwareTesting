@@ -42,5 +42,8 @@ public Object[][] readExcelData() {
     excel.closeWorkbook();
     return data;
 }
-
+@Test()
+public void checkRegisterBtnAvailable() {
+	Assert.assertEquals(signIn.checkRegisterBtnAvailable(), true);
+}
 }
